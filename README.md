@@ -8,4 +8,4 @@ Every part of this project is sample code which shows how to do the following:
 
 * Create two view controller in main storyBoard and step up the launchScreen storyboard with starBucks color.
 * Using IBSegueAction to send the few data by randomElement() to resultViewController.
-* Using UIButton / UITextField with UIPickerView / UISegmentControl /  UISwitch / UISlider / UIDatePicker to different result.
+* Using UIButton / UITextField with UIPickerView / UISegmentControl /  UISwitch / UISlider / UIDatePicker to deliver different result.
