@@ -11,5 +11,5 @@ Every part of this project is sample code which shows how to do the following:
 * Using UIButton / UITextField with UIPickerView / UISegmentControl /  UISwitch / UISlider / UIDatePicker to deliver different result.
 
 ## find a bug?
-* Add the autoLayout for both view controller.
+* Add the AutoLayout for both view controller.
 * More simple code to use.
