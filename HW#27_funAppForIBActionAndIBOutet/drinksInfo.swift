@@ -7,9 +7,11 @@
 
 import Foundation
 
-struct drinksInfo{
-    var selectSegmentControl: Int!
-    var mondayBlueRate: Int!
-    var drinkType: String!
-    var moodPhrases: String!
+struct drinksInfo {
+    var moodRate: Int!
+    var drinkSizeIndex: Int!
+    var dateString: String!
+    var drinkName: String!
+    var drinkTypeResult: String!
+    var caffeineSwitchValue: Bool = false
 }

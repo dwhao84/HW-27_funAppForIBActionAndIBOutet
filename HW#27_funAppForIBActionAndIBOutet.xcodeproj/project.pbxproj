@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3033B8A2A26327900550C4D /* ThirdSharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3033B892A26327900550C4D /* ThirdSharpImageView.swift */; };
-		D304E5352A27A24400E54349 /* drinksInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304E5342A27A24400E54349 /* drinksInfo.swift */; };
 		D32829A52A28DE0E00681337 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32829A42A28DE0E00681337 /* ResultViewController.swift */; };
 		D3B3057A2A1E3E9900B7BC81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B305792A1E3E9900B7BC81 /* AppDelegate.swift */; };
 		D3B3057C2A1E3E9900B7BC81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3057B2A1E3E9900B7BC81 /* SceneDelegate.swift */; };
@@ -21,8 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3033B892A26327900550C4D /* ThirdSharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdSharpImageView.swift; sourceTree = "<group>"; };
-		D304E5342A27A24400E54349 /* drinksInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinksInfo.swift; sourceTree = "<group>"; };
 		D32829A42A28DE0E00681337 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		D3B305762A1E3E9900B7BC81 /* HW#27_funAppForIBActionAndIBOutet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW#27_funAppForIBActionAndIBOutet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B305792A1E3E9900B7BC81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,8 +68,6 @@
 				D32829A42A28DE0E00681337 /* ResultViewController.swift */,
 				D3B305992A20E95800B7BC81 /* SharpImageView.swift */,
 				D3F93ABA2A24DFE2001DE7FF /* SecondSharpImageView.swift */,
-				D3033B892A26327900550C4D /* ThirdSharpImageView.swift */,
-				D304E5342A27A24400E54349 /* drinksInfo.swift */,
 				D3B3057F2A1E3E9900B7BC81 /* Main.storyboard */,
 				D3B305822A1E3E9B00B7BC81 /* Assets.xcassets */,
 				D3B305842A1E3E9B00B7BC81 /* LaunchScreen.storyboard */,
@@ -157,9 +151,7 @@
 				D3B3059A2A20E95800B7BC81 /* SharpImageView.swift in Sources */,
 				D3B3057C2A1E3E9900B7BC81 /* SceneDelegate.swift in Sources */,
 				D3F93ABB2A24DFE2001DE7FF /* SecondSharpImageView.swift in Sources */,
-				D3033B8A2A26327900550C4D /* ThirdSharpImageView.swift in Sources */,
 				D3F93AB72A24848C001DE7FF /* StarBucksViewController.swift in Sources */,
-				D304E5352A27A24400E54349 /* drinksInfo.swift in Sources */,
 				D32829A52A28DE0E00681337 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

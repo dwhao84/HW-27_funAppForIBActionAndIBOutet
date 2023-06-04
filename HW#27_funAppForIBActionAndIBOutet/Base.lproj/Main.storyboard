@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ma0-xJ-xAz">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -164,7 +164,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="cancelButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZAY-fd-laZ"/>
-                                    <action selector="goButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hpc-Ni-Joy"/>
                                 </connections>
                             </button>
                             <button autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tyT-b4-aS7">
@@ -180,7 +179,6 @@
                                     <color key="baseBackgroundColor" red="0.0" green="0.59999999999999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="goButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6v-La-wol"/>
                                     <segue destination="BCY-6L-9Mh" kind="show" destinationCreationSelector="showResult:" id="1wP-ID-Sw9"/>
                                 </connections>
                             </button>
@@ -244,7 +242,7 @@
                     </connections>
                 </pickerView>
             </objects>
-            <point key="canvasLocation" x="120" y="-54"/>
+            <point key="canvasLocation" x="129" y="-54"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="3PG-E8-rbI">
@@ -401,7 +399,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ocn-gU-7EG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1046.5648854961833" y="-54.225352112676056"/>
+            <point key="canvasLocation" x="860" y="-54"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mN0-LP-hLn">
@@ -420,7 +418,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBl-hJ-Ffi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-769" y="-54"/>
+            <point key="canvasLocation" x="-563" y="-54"/>
         </scene>
     </scenes>
     <resources>

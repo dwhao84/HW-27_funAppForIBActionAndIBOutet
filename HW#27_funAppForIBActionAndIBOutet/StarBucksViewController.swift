@@ -80,7 +80,12 @@ class StarBucksViewController: UIViewController, UITextFieldDelegate, UIPickerVi
          controller?.drinkSizeIndex = Int(drinkSizeSegmentedControl.selectedSegmentIndex)
          
          controller?.dateString = dateformatter.string(from: starDatePicker.date)
-         controller?.drinkTypeResult = drinksTypeTextField.text
+         if drinksTypeTextField.text?.isEmpty == false {
+             controller?.drinkTypeResult = drinksTypeTextField.text
+         } else if drinksTypeTextField.text?.isEmpty == true {
+             drinksTypeTextFieldResult()
+             print("missing nameTextField content")
+         }
          controller?.caffeineSwitchValue = caffeineSwitch.isOn
             return controller
         }
@@ -133,33 +138,27 @@ class StarBucksViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         }
     }
     
-    @IBAction func goButtonTapped(_ sender: Any) {
-        //drinksTypeTextFieldIsEmpty()
-       // nameTextFieldIsEmpty()
-    }
-    
     //當nameTextField是空的時候顯示UIAlertController
-    func nameTextFieldIsEmpty() {
-        if nameTextField.text?.isEmpty == true {
-            let alertController = UIAlertController(title: "少寫了名字!", message: "記得填上名字", preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "Ok", style: .default))
-            present(alertController, animated: true)
-            print("missing nameTextField content")
-        } else if nameTextField.text?.isEmpty == false {
-            print("fill the nameTextField already")
-        }
-    }
+    //func nameTextFieldResult() {
+    //   if nameTextField.text?.isEmpty == true {
+    //       let alertController = UIAlertController(title: "少寫了名字!", message: "記得填上名字", preferredStyle: .alert)
+    //       alertController.addAction(UIAlertAction(title: "Ok", style: .default))
+    //        present(alertController, animated: true)
+    //       print("missing nameTextField content")
+    //   } else if nameTextField.text?.isEmpty == false {
+    //       let sucessController = UIAlertController(title: "輸入成功！", message: "名字輸入成功", preferredStyle: .alert)
+    //       sucessController.addAction(UIAlertAction(title: "Ok", style: .default))
+    //       present(sucessController, animated: true)
+    //       print("fill the nameTextField already")
+    //   }
+    // }
     
     //當drinksTypeTextField是空的時候顯示UIAlertController
-    func drinksTypeTextFieldIsEmpty() {
-        if drinksTypeTextField.text?.isEmpty == true {
+    func drinksTypeTextFieldResult() {
             let alertController = UIAlertController(title: "少寫填了飲料種類", message: "記得選擇你愛喝的種類!", preferredStyle: .alert)
             alertController.addAction(UIAlertAction(title: "Ok", style: .default))
             present(alertController, animated: true)
             print("missing drinksTypeTextField content")
-        } else if drinksTypeTextField.text?.isEmpty == false {
-            print("fill the drinksTypeTextField already")
-        }
     }
     
     //productImageView變成
@@ -180,7 +179,7 @@ class StarBucksViewController: UIViewController, UITextFieldDelegate, UIPickerVi
     func goButtonAddShadow() {
         goButton.layer.shadowColor = UIColor.black.cgColor
         goButton.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        goButton.layer.shadowOpacity = 0.5
+        goButton.layer.shadowOpacity = 0.3
         goButton.layer.shadowRadius = 30
         view.addSubview(goButton)
     }
