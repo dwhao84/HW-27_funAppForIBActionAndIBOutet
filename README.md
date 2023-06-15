@@ -15,4 +15,4 @@ Every part of this project is sample code which shows how to do the following:
 * More simple code to use.
 
 ##Further more information, Please check the links below.
-# https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-27-使用-iboutlet-ibaction-亂數創作有趣的-app-3608990a820b 
+https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-27-使用-iboutlet-ibaction-亂數創作有趣的-app-3608990a820b 
